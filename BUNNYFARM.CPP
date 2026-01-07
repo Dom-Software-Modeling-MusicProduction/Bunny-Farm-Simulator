@@ -33,7 +33,7 @@ class Bunny{
         }
     }
     
-    //initializing constructor inside class to make bunny
+    //initializing constructor inside class to make the bunny
     Bunny(const string&motherColour,const vector<string>&maleNames,const vector<string>&femaleNames,const vector<string>&vampireNames, const vector<string>&colourlist){
         decideSex();
         isVamp();
@@ -59,7 +59,8 @@ class Bunny{
                  
         
     }
-    
+
+
 };
 enum SeasonEvent {
     None,
@@ -346,7 +347,11 @@ class Farm{
         
     }
                                
-                            
+        // Runs one full simulation year:
+        // - ages bunnies
+        // - applies events
+        // - resolves deaths and births
+        // - handles vampire conversions                        
     void update(){
         int birthsThisYear = 0;
         int deathsThisYear = 0;
