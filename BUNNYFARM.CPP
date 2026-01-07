@@ -34,6 +34,8 @@ class Bunny{
     }
     
     //initializing constructor inside class to make the bunny
+    // Represents an individual bunny with genetic traits, age,
+    // and possible vampire mutation.
     Bunny(const string&motherColour,const vector<string>&maleNames,const vector<string>&femaleNames,const vector<string>&vampireNames, const vector<string>&colourlist){
         decideSex();
         isVamp();
