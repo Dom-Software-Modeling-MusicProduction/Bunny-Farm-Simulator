@@ -1,0 +1,230 @@
+Let's Begin The Bunny Simulation!
+
+Name: Petal, Sex: Female, Colour: Blue, Age: 0
+
+Name: Oak, Sex: Male, Colour: Black, Age: 0
+
+Name: Cupcake, Sex: Female, Colour: Silver, Age: 0
+
+Name: Coral, Sex: Female, Colour: Red, Age: 0
+
+Name: Pebble, Sex: Male, Colour: Red, Age: 0
+
+This year passes quietly in the meadow...
+
+==== END OF YEAR 1 ====
+
+Year summary: 0 births, 0 deaths, 5 total bunnies.
+
+==== YEAR 2 BEGINS ====
+
+Name: Petal, Sex: Female, Colour: Blue, Age: 1
+
+Name: Oak, Sex: Male, Colour: Black, Age: 1
+
+Name: Cupcake, Sex: Female, Colour: Silver, Age: 1
+
+Name: Coral, Sex: Female, Colour: Red, Age: 1
+
+Name: Pebble, Sex: Male, Colour: Red, Age: 1
+
+❄ A harsh winter sweeps the land — survival becomes difficult.
+
+Bunny Oak died from disappearing when a strange bell tolled
+
+==== END OF YEAR 2 ====
+
+Year summary: 0 births, 1 deaths, 4 total bunnies.
+
+Winter fades, the few survivors endure...
+
+==== YEAR 3 BEGINS ====
+
+Name: Petal, Sex: Female, Colour: Blue, Age: 2
+
+Name: Cupcake, Sex: Female, Colour: Silver, Age: 2
+
+Name: Coral, Sex: Female, Colour: Red, Age: 2
+
+Name: Pebble, Sex: Male, Colour: Red, Age: 2
+
+This year passes quietly in the meadow...
+
+Bunny Cinnamon was born!
+
+==== END OF YEAR 3 ====
+
+Year summary: 1 births, 0 deaths, 5 total bunnies.
+
+==== YEAR 4 BEGINS ====
+
+Name: Petal, Sex: Female, Colour: Blue, Age: 3
+
+Name: Cupcake, Sex: Female, Colour: Silver, Age: 3
+
+Name: Coral, Sex: Female, Colour: Red, Age: 3
+
+Name: Pebble, Sex: Male, Colour: Red, Age: 3
+
+Name: Cinnamon, Sex: Female, Colour: Red, Age: 0
+
+🌼 Abundant spring blooms — food and life thrive!
+
+Bunny Cinnamon died from quietness finally claiming them
+
+Bunny Cuddles was born!
+
+==== END OF YEAR 4 ====
+
+Year summary: 1 births, 1 deaths, 5 total bunnies.
+
+Spring bounty disappears as summer arrives.
+
+==== YEAR 5 BEGINS ====
+
+Name: Petal, Sex: Female, Colour: Blue, Age: 4
+
+Name: Cupcake, Sex: Female, Colour: Silver, Age: 4
+
+Name: Coral, Sex: Female, Colour: Red, Age: 4
+
+Name: Pebble, Sex: Male, Colour: Red, Age: 4
+
+Name: Cuddles, Sex: Female, Colour: Red, Age: 0
+
+🦊 Predators are on the prowl — danger lurks everywhere.
+
+Bunny Echo was born!
+
+==== END OF YEAR 5 ====
+
+Year summary: 1 births, 0 deaths, 6 total bunnies.
+
+Predators retreat — peace returns for now.
+
+==== YEAR 6 BEGINS ====
+
+Name: Petal, Sex: Female, Colour: Blue, Age: 5
+
+Name: Cupcake, Sex: Female, Colour: Silver, Age: 5
+
+Name: Coral, Sex: Female, Colour: Red, Age: 5
+
+Name: Pebble, Sex: Male, Colour: Red, Age: 5
+
+Name: Cuddles, Sex: Female, Colour: Red, Age: 1
+
+Name: Echo, Sex: Male, Colour: Silver, Age: 0
+
+This year passes quietly in the meadow...
+
+Bunny Rusty was born!
+
+==== END OF YEAR 6 ====
+
+Year summary: 1 births, 0 deaths, 7 total bunnies.
+
+==== YEAR 7 BEGINS ====
+
+Name: Petal, Sex: Female, Colour: Blue, Age: 6
+
+Name: Cupcake, Sex: Female, Colour: Silver, Age: 6
+
+Name: Coral, Sex: Female, Colour: Red, Age: 6
+
+Name: Pebble, Sex: Male, Colour: Red, Age: 6
+
+Name: Cuddles, Sex: Female, Colour: Red, Age: 2
+
+Name: Echo, Sex: Male, Colour: Silver, Age: 1
+
+Name: Rusty, Sex: Male, Colour: Blue, Age: 0
+
+This year passes quietly in the meadow...
+
+Bunny Nimbus was born!
+
+Bunny Bluebell was born!
+
+==== END OF YEAR 7 ====
+
+Year summary: 2 births, 0 deaths, 9 total bunnies.
+
+==== YEAR 8 BEGINS ====
+
+Name: Petal, Sex: Female, Colour: Blue, Age: 7
+
+Name: Cupcake, Sex: Female, Colour: Silver, Age: 7
+
+Name: Coral, Sex: Female, Colour: Red, Age: 7
+
+Name: Pebble, Sex: Male, Colour: Red, Age: 7
+
+Name: Cuddles, Sex: Female, Colour: Red, Age: 3
+
+Name: Echo, Sex: Male, Colour: Silver, Age: 2
+
+Name: Rusty, Sex: Male, Colour: Blue, Age: 1
+
+Name: Nimbus, Sex: Male, Colour: Silver, Age: 0
+
+Name: Bluebell, Sex: Female, Colour: Red, Age: 0
+
+This year passes quietly in the meadow...
+
+Bunny Cupcake died from winter winds carrying them away
+
+Bunny Rusty died from the summer heat proving too tiring
+
+Bunny Frosty was born!
+
+Bunny Dusty was born!
+
+==== END OF YEAR 8 ====
+
+Year summary: 2 births, 2 deaths, 9 total bunnies.
+
+==== YEAR 9 BEGINS ====
+
+Name: Petal, Sex: Female, Colour: Blue, Age: 8
+
+Name: Coral, Sex: Female, Colour: Red, Age: 8
+
+Name: Pebble, Sex: Male, Colour: Red, Age: 8
+
+Name: Cuddles, Sex: Female, Colour: Red, Age: 4
+
+Name: Echo, Sex: Male, Colour: Silver, Age: 3
+
+Name: Nimbus, Sex: Male, Colour: Silver, Age: 1
+
+Name: Bluebell, Sex: Female, Colour: Red, Age: 1
+
+Name: Frosty, Sex: Male, Colour: Red, Age: 0
+
+Name: Dusty, Sex: Male, Colour: Red, Age: 0
+
+This year passes quietly in the meadow...
+
+Bunny Skye was born!
+
+Bunny Rascal was born!
+
+Bunny Dusty was born!
+
+Bunny Acorn was born!
+
+==== END OF YEAR 9 ====
+
+Year summary: 4 births, 0 deaths, 13 total bunnies.
+
+==== YEAR 10 BEGINS ====
+
+Name: Petal, Sex: Female, Colour: Blue, Age: 9
+
+Name: Coral, Sex: Female, Colour: Red, Age: 9
+
+Name: Pebble, Sex: Male, Colour: Red, Age: 9
+
+Name: Cuddles, Sex: Female, Colour: Red, Age: 5
+
