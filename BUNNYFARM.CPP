@@ -116,19 +116,19 @@ class Farm{
         }
         else if (roll < 70) {
             currentEvent = HarshWinter;
-            logLine("❄ A harsh winter sweeps the land — survival becomes difficult.");
+            logLine("A harsh winter sweeps the land — survival becomes difficult.");
         }
         else if (roll < 85) {
             currentEvent = AbundantSpring;
-            logLine("🌼 Abundant spring blooms — food and life thrive!");
+            logLine("Abundant spring blooms — food and life thrive!");
         }
         else if (roll < 95) {
             currentEvent = PredatorSeason;
-            logLine("🦊 Predators are on the prowl — danger lurks everywhere.");
+            logLine("Predators are on the prowl — danger lurks everywhere.");
         }
         else {
             currentEvent = Eclipse;
-            logLine("🌑 A dark eclipse rises — vampire influence grows...");
+            logLine("A dark eclipse rises — vampire influence grows...");
         }
         
     }
@@ -165,7 +165,7 @@ class Farm{
 
         // ---- PREDATOR SEASON ----
         if (rand() % 100 < 1.0 * factor) {
-            logLine("🦊 Predators are on the prowl!");
+            logLine("Predators are on the prowl!");
 
             int kills = max(1, int(bunnies.size() * factor * 0.01)); // 3% pop damage
             applyPredatorDeaths(kills);
@@ -178,7 +178,7 @@ class Farm{
         if (plagueYearsRemaining == 0 && rand() % 150 < 1.0 * factor) {
 
             string disease = diseaseNames[rand() % diseaseNames.size()];
-            logLine("☣️ A plague known as " + disease + " breaks out!");
+            logLine("A plague known as " + disease + " breaks out!");
             applyPlague(disease);
 
             plagueCooldownYears = 5;   // plague cannot happen again for 5 years
@@ -198,23 +198,23 @@ class Farm{
         int expectedDeaths = int(bunnies.size() * mortalityRate);
         expectedDeaths = max(1, expectedDeaths);
 
-        logLine("⚠️ " + diseaseName + " intensifies — estimated casualties: " + to_string(expectedDeaths));
+        logLine("!!!" + diseaseName + " intensifies — estimated casualties: " + to_string(expectedDeaths));
 
         for (int i = 0; i < expectedDeaths && !bunnies.empty(); i++) {
             int idx = rand() % bunnies.size();
 
             // vampires resist — 50% chance they don't die
             if (bunnies[idx].Vamp && rand() % 2 == 0) {
-                logLine("🩸 " + bunnies[idx].name + " resists the plague.");
+                logLine("Uh oh. " + bunnies[idx].name + " resists the plague.");
                 continue;  
             }
 
-            logLine("☠️ " + diseaseName + " claimed " + bunnies[idx].name + "...");
+            logLine(diseaseName + " claimed " + bunnies[idx].name + "...");
             bunnies.erase(bunnies.begin() + idx);
         }
         if (rand() % 100 < 5) {
             int idx = rand() % bunnies.size();
-            logLine("✨ " + bunnies[idx].name + " survived " + diseaseName + " and gained immunity!");
+            logLine(bunnies[idx].name + " survived " + diseaseName + " and gained immunity!");
             bunnies[idx].colour = "Silver"; // or special tag
         }
     }
@@ -443,7 +443,7 @@ class Farm{
         
         
         if (bunnies.size() < 5 && rand()%100 < 10) {
-            logLine("🐰 A wandering rabbit arrives!");
+            logLine("A wandering rabbit arrives!");
             this_thread::sleep_for(chrono::milliseconds(delay));
             string wandererColour = colourlist[rand() % colourlist.size()];
             Bunny newcomer(wandererColour, maleNames, femaleNames, vampireNames, colourlist);
@@ -513,7 +513,7 @@ class Farm{
                     else bunnies[indx].colour = "Red";  
 
                     infected = true;  
-                    logLine("⚡ " + bunnies[indx].name + " was cursed!");  
+                    logLine(bunnies[indx].name + " was cursed!");  
                 }  
             }
         }
