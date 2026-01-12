@@ -57,7 +57,18 @@ Vampire mechanics:
 
 # Execution
 
-To run and compile this program, use the command  g++ BUNNYFARM.CPP, and it will print text to the console window, informing the user about what is currently happening each year in the simulation. Further reference regarding what happens can also be found in the text file "Bunny_Farm_Simulation.txt", as the program also outputs all events that occur to that file. 
+To run and compile this program, use the command  g++ BUNNYFARM.CPP, and it will print text to the console window, informing the user about what is currently happening in the simulation each year. Further reference regarding what happens can also be found in the text file "Bunny_Farm_Simulation.txt", as the program also outputs all events that occur to that file. 
+
+To run the following program, clone the repository to your computer and then compile it. This project was written in C++ and was tested on Windows using MSYS2 (MinGW64).
+
+### Requirements
+- g++ (C++17)
+
+### Compile
+g++ BUNNYFARM.CPP -o program
+
+### Run
+./program
 
 # Purpose
 
